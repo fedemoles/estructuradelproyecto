@@ -1,49 +1,60 @@
 body {
-  background-color: #ffffff; }
+  background-color: #ffffff;
+}
 
 .sticky-top-3 {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  z-index: 1030; }
+  z-index: 1030;
+}
 
 .carOusel {
-  background-color: #680005; }
+  background-color: #680005;
+}
 
 .caroUss {
   font-size: 120%;
   font-weight: bold;
-  text-shadow: 2px 1px #000000; }
+  text-shadow: 2px 1px #000000;
+}
 
 .ultIngr {
   background-color: #680005;
   text-align: center;
   font-size: 65%;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 .susCrip {
   background-color: #4a0004;
-  text-align: center; }
+  text-align: center;
+}
 
 .taSac {
   background-color: #680005;
   text-align: center;
   font-size: 130%;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 .cloSe {
   background-color: #ff0000;
-  border-radius: 1%; }
+  border-radius: 1%;
+}
 
 .plaTaf {
   background-color: #82ee99;
-  border-radius: 1%; }
+  border-radius: 1%;
+}
 
 .aniMat {
-  --animate-duration: 3s; }
+  --animate-duration: 5s;
+}
 
 .fooTmod {
-  background-color: #ffffff; }
+  background-color: #ffffff;
+}
 
 .webUnd {
   background-color: #680005;
@@ -53,14 +64,20 @@ body {
   font-weight: bold;
   text-shadow: 1px 1px #000000;
   width: auto;
-  padding: 0.5rem; }
+  padding: 0.5rem;
+}
 
 .webUnd:hover span {
-  text-shadow: 0 0 10px #ffffff, 0 0 20px, 0 0 40px; }
+  text-shadow: 0 0 10px #ffffff,
+    0 0 20px,
+    0 0 40px;
+}
 
 @media (max-width: 800px) and (min-width: 0px) {
   .carOusel {
     font-size: 10px;
     padding: 0px;
     margin-top: 0px;
-    margin-bottom: 0px; } }
+    margin-bottom: 0px;
+  }
+}
