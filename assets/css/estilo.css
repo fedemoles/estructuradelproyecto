@@ -61,6 +61,11 @@ body {
   border-radius: 1%;
 }
 
+.conTainers {
+  padding: 50px;
+  align-items: flex-end;
+}
+
 .aniMat {
   --animate-duration: 5s;
 }
